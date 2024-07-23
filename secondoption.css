@@ -1,0 +1,155 @@
+body{
+    background-color: #FEF5DA;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header{
+    display: grid;
+    background-color:#0085A2;
+    padding: 0px;
+    position: -webkit-sticky ;
+    position: sticky;
+    top: 0px;
+    margin: 0px;
+    border: 20px solid #0085A2;
+    grid-template-columns:30px 458px 435px 181px 42px 134px 29px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5);
+
+
+    
+
+
+}
+.art a{
+    font-size: 18px;
+    display: inline;
+    color: #F7E7DA;
+    text-decoration: none;
+    font-weight: bold;
+}
+.coeur img{
+    height: 22px;
+}
+.female img{
+
+    height: 29px;
+    margin-left: 100px;
+
+}
+#fe{
+    display: flex;
+    justify-content: flex-end;
+}
+header btn{
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.custom-celect{
+    display: flex;
+    position: relative;
+    font-family: Arial;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.selected{
+    font-size: 20px;
+    width: 140px;
+    background-color: #FEF5DA;
+    color: #F7E7DA;
+    border: 0px;
+    padding-top: 3px;
+    font-family: "times new roman";
+}
+.custom-celect h3{
+    font-size: 18px;
+    margin: 0px;
+    color: #F7E7DA;
+}
+.custom-celect a{
+    display: flex;
+    color: #F7E7DA;
+    text-decoration: none;
+
+}
+.art h1{
+    font-size: 18px;
+    display: inline;
+    color: #F7E7DA;
+    font-family: Arial, Helvetica, sans-serif;
+}
+article{
+    margin: 0px 70px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+
+}
+
+header input{
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+
+
+}
+
+.search-container {
+    position: relative;
+    width: 300px; /* Adjust width as needed */
+    margin: 0; /* Centers the container */
+    height: 1px;
+  }
+  
+  .search-input {
+    width: calc(100% - 40px); /* Adjust based on the button width */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px; /* Rounded corners on left side only */
+    height: 7px;
+  }
+  
+  .search-button {
+    position:absolute;
+    right: 0;
+    top: 0;
+    width: 36px; /* Adjust width as needed */
+    height: 29px;
+    border: none;
+    background-color: #f0f0f0;
+    color: #333;
+    border-radius: 0 5px 5px 0; /* Rounded corners on right side only */
+    cursor: pointer;
+
+  }
+  
+  .search-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .fa {
+    /* Font Awesome styles (assuming you're using Font Awesome icons) */
+    font-size: 4px;
+    line-height: 40px; /* Centers the icon vertically */
+    text-align: center;
+  }
+.image-container{
+    background-image: url('colorful.avif');
+    background-size: cover;
+    width: 1356px;
+    height: 830px;
+}
+
+.art a:hover{
+    color: #E8A172;
+}
+
+#sp:hover{color: #E8A172;}
+.fa-magnifying-glass:before, .fa-search:before {
+    content: "\f002";
+    font-size: 14px;}
+
+.image-container p{
+    margin: 0px;
+}
